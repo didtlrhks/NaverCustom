@@ -21,8 +21,9 @@ struct OnboardingView: View {
 }
 
 // MARK: - 온보딩 컨텐츠 뷰
-private struct OnboardingContentView : View{
-    @ObservedObject private var onboardingViewModel = OnboardingViewModel
+private struct OnboardingContentView: View {
+    
+    @ObservedObject private var onboardingViewModel : OnboardingViewModel
     
     fileprivate init(onboardingViewModel: OnboardingViewModel) {
         self.onboardingViewModel = onboardingViewModel
