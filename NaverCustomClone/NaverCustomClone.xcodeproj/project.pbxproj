@@ -9,27 +9,25 @@
 /* Begin PBXBuildFile section */
 		8E3413932B46C23400DF394D /* NaverCustomCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413922B46C23400DF394D /* NaverCustomCloneApp.swift */; };
 		8E3413952B46C23400DF394D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413942B46C23400DF394D /* ContentView.swift */; };
-		8E3413972B46C23600DF394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413962B46C23600DF394D /* Assets.xcassets */; };
 		8E34139A2B46C23600DF394D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413992B46C23600DF394D /* Preview Assets.xcassets */; };
-		8E3413A12B47DF0900DF394D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */; };
 		8E3413A42B47E44F00DF394D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A32B47E44F00DF394D /* Color+Extensions.swift */; };
 		8E3413A62B47E78F00DF394D /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A52B47E78F00DF394D /* OnboardingContent.swift */; };
 		8E3413A82B47E87000DF394D /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */; };
 		8E3413AA2B47EA5F00DF394D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A92B47EA5F00DF394D /* OnboardingView.swift */; };
+		8E3413B02B48083400DF394D /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413AF2B48083400DF394D /* Asset.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E34138F2B46C23400DF394D /* NaverCustomClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverCustomClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3413922B46C23400DF394D /* NaverCustomCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverCustomCloneApp.swift; sourceTree = "<group>"; };
 		8E3413942B46C23400DF394D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8E3413962B46C23600DF394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3413992B46C23600DF394D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8E3413A22B47E0AB00DF394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8E3413A32B47E44F00DF394D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		8E3413A52B47E78F00DF394D /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
 		8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		8E3413A92B47EA5F00DF394D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8E3413AF2B48083400DF394D /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				8E3413A22B47E0AB00DF394D /* Info.plist */,
+				8E3413AF2B48083400DF394D /* Asset.xcassets */,
 				8E3413922B46C23400DF394D /* NaverCustomCloneApp.swift */,
 				8E3413942B46C23400DF394D /* ContentView.swift */,
-				8E3413962B46C23600DF394D /* Assets.xcassets */,
 				8E3413982B46C23600DF394D /* Preview Content */,
-				8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */,
 				8E3413A32B47E44F00DF394D /* Color+Extensions.swift */,
 				8E3413A52B47E78F00DF394D /* OnboardingContent.swift */,
 				8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */,
@@ -142,9 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3413A12B47DF0900DF394D /* Launch Screen.storyboard in Resources */,
+				8E3413B02B48083400DF394D /* Asset.xcassets in Resources */,
 				8E34139A2B46C23600DF394D /* Preview Assets.xcassets in Resources */,
-				8E3413972B46C23600DF394D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
