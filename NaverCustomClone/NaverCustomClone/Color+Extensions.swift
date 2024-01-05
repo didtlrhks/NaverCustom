@@ -22,5 +22,5 @@ extension Color {
     static let customOrange = Color("customOrange")
     static let customSky = Color("customSky")
     static let customWhite = Color("customWhite")
-    
+    static let customBackgroundGreenEx = Color("customBackgroundGreen1")
 }
