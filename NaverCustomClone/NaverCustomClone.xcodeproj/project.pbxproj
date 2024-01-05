@@ -11,6 +11,11 @@
 		8E3413952B46C23400DF394D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413942B46C23400DF394D /* ContentView.swift */; };
 		8E3413972B46C23600DF394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413962B46C23600DF394D /* Assets.xcassets */; };
 		8E34139A2B46C23600DF394D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413992B46C23600DF394D /* Preview Assets.xcassets */; };
+		8E3413A12B47DF0900DF394D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */; };
+		8E3413A42B47E44F00DF394D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A32B47E44F00DF394D /* Color+Extensions.swift */; };
+		8E3413A62B47E78F00DF394D /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A52B47E78F00DF394D /* OnboardingContent.swift */; };
+		8E3413A82B47E87000DF394D /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */; };
+		8E3413AA2B47EA5F00DF394D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3413A92B47EA5F00DF394D /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		8E3413942B46C23400DF394D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E3413962B46C23600DF394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3413992B46C23600DF394D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8E3413A22B47E0AB00DF394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E3413A32B47E44F00DF394D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		8E3413A52B47E78F00DF394D /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
+		8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		8E3413A92B47EA5F00DF394D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,16 @@
 		8E3413912B46C23400DF394D /* NaverCustomClone */ = {
 			isa = PBXGroup;
 			children = (
+				8E3413A22B47E0AB00DF394D /* Info.plist */,
 				8E3413922B46C23400DF394D /* NaverCustomCloneApp.swift */,
 				8E3413942B46C23400DF394D /* ContentView.swift */,
 				8E3413962B46C23600DF394D /* Assets.xcassets */,
 				8E3413982B46C23600DF394D /* Preview Content */,
+				8E3413A02B47DF0900DF394D /* Launch Screen.storyboard */,
+				8E3413A32B47E44F00DF394D /* Color+Extensions.swift */,
+				8E3413A52B47E78F00DF394D /* OnboardingContent.swift */,
+				8E3413A72B47E87000DF394D /* OnboardingViewModel.swift */,
+				8E3413A92B47EA5F00DF394D /* OnboardingView.swift */,
 			);
 			path = NaverCustomClone;
 			sourceTree = "<group>";
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3413A12B47DF0900DF394D /* Launch Screen.storyboard in Resources */,
 				8E34139A2B46C23600DF394D /* Preview Assets.xcassets in Resources */,
 				8E3413972B46C23600DF394D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3413A82B47E87000DF394D /* OnboardingViewModel.swift in Sources */,
+				8E3413A62B47E78F00DF394D /* OnboardingContent.swift in Sources */,
 				8E3413952B46C23400DF394D /* ContentView.swift in Sources */,
+				8E3413AA2B47EA5F00DF394D /* OnboardingView.swift in Sources */,
 				8E3413932B46C23400DF394D /* NaverCustomCloneApp.swift in Sources */,
+				8E3413A42B47E44F00DF394D /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +297,9 @@
 				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverCustomClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +326,9 @@
 				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverCustomClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
